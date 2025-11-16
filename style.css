@@ -14,6 +14,7 @@ header {
   color: white;
   padding: 10px 7px;
   display: flex;
+   flex-wrap:wrap;
   justify-content: space-between;
   align-items: center;
   position: fixed;
@@ -395,3 +396,4 @@ footer {
 div {
    flex-wrap: wrap;
 }
+
