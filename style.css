@@ -14,7 +14,6 @@ header {
   color: white;
   padding: 10px 7px;
   display: flex;
-  flex-wrap:wrap;
   justify-content: space-between;
   align-items: center;
   position: fixed;
@@ -25,9 +24,10 @@ header {
   z-index: 3000;
   border-radius: 50px;     
   font-size: 13px;
-  margin-right: 80px;
-  margin-left: 80px;
+  transform: translateX(-50%);
+  left: 50%;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 
 header h1{
@@ -396,5 +396,6 @@ footer {
 div {
    flex-wrap: wrap;
 }
+
 
 
